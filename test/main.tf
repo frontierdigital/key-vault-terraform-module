@@ -10,6 +10,7 @@ module "key_vault" {
   location                   = "uksouth"
   log_analytics_workspace_id = "quz"
   resource_group_name        = "bar"
+  set                        = "standalone"
   tenant_id                  = "baz"
   workload_name              = "foo"
   workload_type              = "foo/bar"

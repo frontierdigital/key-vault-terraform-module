@@ -18,6 +18,10 @@ variable "resource_group_name" {
   type = string
 }
 
+variable "set" {
+  type = string
+}
+
 variable "sku_name" {
   type    = string
   default = "standard"
