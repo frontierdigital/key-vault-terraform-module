@@ -1,5 +1,7 @@
 # key-vault-terraform-module
 
+[![CI](https://github.com/frontierdigital/key-vault-terraform-module/actions/workflows/ci.yml/badge.svg)](https://github.com/frontierdigital/key-vault-terraform-module/actions/workflows/ci.yml)
+
 ## About
 This Terraform module deploys an `azurerm_key_vault` and supporting resources.
 
