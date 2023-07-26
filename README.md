@@ -5,7 +5,7 @@ This Terraform module deploys an `azurerm_key_vault` and supporting resources.
 
 ## Test
 ```sh
-make install
+INCLUDE_DEV=true make install
 make test
 ```
 
