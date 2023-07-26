@@ -15,7 +15,7 @@ resource "azurerm_monitor_diagnostic_setting" "main" {
   target_resource_id         = azurerm_key_vault.main.id
   log_analytics_workspace_id = var.log_analytics_workspace_id
 
-  log {
+  enabled_log {
     category = "AuditEvent"
 
     retention_policy {
@@ -24,7 +24,7 @@ resource "azurerm_monitor_diagnostic_setting" "main" {
     }
   }
 
-  log {
+  enabled_log {
     category = "AzurePolicyEvaluationDetails"
 
     retention_policy {
